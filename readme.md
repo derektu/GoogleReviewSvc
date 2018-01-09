@@ -3,7 +3,7 @@
 - 請參考[https://developers.google.com/android-publisher/getting_started](https://developers.google.com/android-publisher/getting_started), 設定一個service account, 取得這個service account的private key資料(client_secret.json)
 - 啟動server
 ```
-    $ node app.js --secret='path to your secret file' --port='port to listen'
+    $ node lib/app.js --secret='path to your secret file' --port='port to listen'
 ```
 - 查詢某個package最近一週review (json raw data)
 ```
