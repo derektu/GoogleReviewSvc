@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "API Service to query Google store app reviews",
   "scripts": {
+    "start": "node app.js --secret='./data/client_secret.json' --port=8070",
     "test": "mocha --no-timeouts"
   },
-  "start": "node app.js --secret='./data/client_secret.json' --port=8070",
   "author": "derektu123@gmail.com",
   "license": "MIT",
   "dependencies": {
